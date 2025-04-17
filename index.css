@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+  }
+  
+
+  .rating-container {
+    background: hsl(213, 19%, 18%);
+    border: hsl(213, 19%, 18%);
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 250px;
+    height: 240px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+  
+  .star-icon {
+    display: flex;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(220, 7%, 26%);
+    color: hsl(25, 97%, 53%);
+    width: 30px;
+    height: 30px;
+  }
+
+  .rating-container h3 {
+    margin-right: 80px;
+   padding-right: 25px;
+   color:hsl(0, 100%, 100%); 
+  }
+  
+   .rating-circles {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .circle button{
+    color:hsl(0, 0%, 100%);
+    border: 0px solid;
+    align-items: center;
+    font-size: 10px;
+    height:33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: hsl(220, 7%, 26%);
+    margin-top: 15px;
+    padding:5px, 5px, 5px, 5px;
+    transition: 0.3s;
+    margin-left: 12px;
+  }
+  
+  button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+  }
+  button:active{
+    background-color: #fff;
+    color:hsl(213, 19%, 18%);
+  }
+  
+  .rating-message {
+    margin-top: 10px;
+    font-size: 10px;
+    color: hsl(217, 12%, 63%);
+    margin-right: 50px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background:hsl(25, 97%, 53%);
+    color: black;
+    border-radius: 50px;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 8.7px;
+    font-weight: bold;
+  }
+  
+  .submit-button:hover {
+    background:hsl(25, 97%, 53%);
+    color:black;
+  }
+  .submit-button:active {
+    background:hsl(0, 0%, 100%);
+  }
+    
+    rating {
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+      }
+      
+      button.selected {
+        background-color: hsl(0, 0%, 100%);
+        color: black;
+        font-weight: bold;
+        border: none;
+        transform: scale(1.1);
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+     
+    .rating-success {
+        background: hsl(213, 19%, 18%);
+        border: hsl(213, 19%, 18%);
+        border-radius: 25px;
+        padding: 20px;
+        max-width: 240px;
+        height: 250px;
+        color:hsl(0, 100%, 100%); 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: none;
+        justify-content: center;
+      }
+
+      .rating-success h3 {
+        font-weight: 500;
+        padding-left: 70px;
+        margin-top: 50px;
+
+      }
+
+      .rating-success p {
+        color: hsl(217, 12%, 63%);
+        font-size: 11px;
+        padding-left: 10px;
+        font-weight: 200;
+      }
+      .rating-number {
+        display: flex;
+       font-size: smaller;
+       font-weight: 400;
+       padding-left: 50px;
+       margin-top: 30px;
+      }
+
+      img{
+        height: 70px;
+        width: auto;
+        padding-left: 60px;
+      }
